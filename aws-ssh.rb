@@ -5,9 +5,9 @@
 class AwsSsh < Formula
   desc "Convenience bash function for SSH on EC2"
   homepage "https://github.com/dstokes/aws-ssh"
-  url "https://github.com/dstokes/aws-ssh/archive/1.0.0.tar.gz"
-  version "1.0.0"
-  sha256 "2b258100ff23f46cf3ed5f05e0aa08535aaf6fa6f0de3d41d886e9e987ebb7c5"
+  url "https://github.com/dstokes/aws-ssh/archive/1.0.1.tar.gz"
+  version "1.0.1"
+  sha256 "5304581b6288e34c66ef33eb5dc7c36271b2e188c99eba82cc4e5fd29cfc0153"
 
   def install
     bin.install "aws-ssh"
