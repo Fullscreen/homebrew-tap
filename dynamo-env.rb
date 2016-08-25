@@ -1,5 +1,5 @@
 class DynamoEnv < Formula
-  desc ""
+  desc "Access DynamoDB key value pairs through a `/usr/bin/env` interface"
   homepage "https://github.com/Fullscreen/dynamo-env"
   url "https://github.com/Fullscreen/dynamo-env/releases/download/1.0.0/darwin_amd64.zip"
   version "64"

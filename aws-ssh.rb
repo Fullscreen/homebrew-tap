@@ -3,6 +3,7 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
 class AwsSsh < Formula
+  desc "Convenience bash function for SSH on EC2"
   homepage "https://github.com/dstokes/aws-ssh"
   url "https://github.com/dstokes/aws-ssh/archive/1.0.0.tar.gz"
   version "1.0.0"

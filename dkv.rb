@@ -1,5 +1,5 @@
 class Dkv < Formula
-  desc ""
+  desc "A command-line interface to a DynamoDB backed key-value store"
   homepage "https://github.com/Fullscreen/dkv"
   url "https://github.com/Fullscreen/dkv/releases/download/1.0.0/darwin_amd64.zip"
   version "1.0.0"
