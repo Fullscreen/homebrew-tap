@@ -9,7 +9,18 @@ class AwsSsh < Formula
   version "1.0.2"
   sha256 "b42ded4ac288f0d5ba0aae7a441b7f3eb6a0fae78986556210889dea892a73b2"
 
+  ohai "yoyoyoyoy"
+
   def install
     bin.install "aws-ssh"
+  end
+
+  def caveats; <<-EOS.undent
+    To avoid collisions with the ash shell, this package is installed as aws-ssh.
+
+    You can rename this tool to `ash` by adding the following to your .bashrc:
+
+        alias ash=aws-ssh
+    EOS
   end
 end
