@@ -1,4 +1,4 @@
-class Fs-env < Formula
+class FsEnv < Formula
   desc "A command-line interface to a set/get/delete environment variables for
   Fullscreen applications"
   homepage "https://github.com/Fullscreen/fs-env"
