@@ -5,11 +5,9 @@
 class AwsSsh < Formula
   desc "Convenience bash function for SSH on EC2"
   homepage "https://github.com/dstokes/aws-ssh"
-  url "https://github.com/dstokes/aws-ssh/archive/1.0.2.tar.gz"
-  version "1.0.2"
-  sha256 "b42ded4ac288f0d5ba0aae7a441b7f3eb6a0fae78986556210889dea892a73b2"
-
-  ohai "yoyoyoyoy"
+  url "https://github.com/dstokes/aws-ssh/archive/1.0.3.tar.gz"
+  version "1.0.3"
+  sha256 "5f13c7b5f64e7880ae10aae7ec6ed3ea3ddbcd429dbf608604267be349eb0b7b"
 
   def install
     bin.install "aws-ssh"
@@ -21,6 +19,7 @@ class AwsSsh < Formula
     You can rename this tool to `ash` by adding the following to your .bashrc:
 
         alias ash=aws-ssh
+
     EOS
   end
 end
