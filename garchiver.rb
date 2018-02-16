@@ -1,5 +1,5 @@
 class Garchiver < Formula
-  desc "bash wrapper for GAM and GVault"
+  desc "bash wrapper for GAM and GMVault"
   homepage "https://github.com/skout23/garchiver"
   url "https://github.com/skout23/garchiver/archive/1.0.0.tar.gz"
   version "1.0.0"
