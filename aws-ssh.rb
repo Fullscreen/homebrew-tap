@@ -13,7 +13,7 @@ class AwsSsh < Formula
     bin.install "aws-ssh"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
     To avoid collisions with the ash shell, this package is installed as aws-ssh.
 
     You can rename this tool to `ash` by adding the following to your .bashrc:
