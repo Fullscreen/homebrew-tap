@@ -1,9 +1,9 @@
 class Ec2Run < Formula
   desc "Run rails consoles (and other things) on ec2 instances."
   homepage "https://github.com/Fullscreen/ec2-run"
-  url "https://github.com/Fullscreen/ec2-run/releases/download/v1.0.0/ec2-run-1.0.0-darwin_amd64.zip"
+  url "https://github.com/Fullscreen/ec2-run/releases/download/1.0.1/ec2-run-1.0.1-darwin_amd64.zip"
   version "1.0.0"
-  sha256 "2aafcbd30dfa92c7154f3aa5f4dbb9724dac85c5c962cf8f50ded3d646f149df"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
   def install
     bin.install "ec2-run"
