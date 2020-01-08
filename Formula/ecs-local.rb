@@ -2,24 +2,24 @@
 class EcsLocal < Formula
   desc "Run ECS task definitions locally"
   homepage "https://github.com/Fullscreen/ecs-local"
-  version "0.2.6"
+  version "0.2.8"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/Fullscreen/ecs-local/releases/download/v0.2.6/ecs-local_Darwin_x86_64.tar.gz"
-    sha256 "a6345b71a968a72934da9a2361a545585ba12286e0d67c012f4d432f0e10aea9"
+    url "https://github.com/Fullscreen/ecs-local/releases/download/v0.2.8/ecs-local_Darwin_x86_64.tar.gz"
+    sha256 "b6a1cf23d43ad282edb4ab09b271a6470a9b18b5ed4c05799377164cb89b4dc6"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/Fullscreen/ecs-local/releases/download/v0.2.6/ecs-local_Linux_x86_64.tar.gz"
-      sha256 "16863be774a2873ca002b6bfce40796be1f4d3e1741fa94baf6b66258120d291"
+      url "https://github.com/Fullscreen/ecs-local/releases/download/v0.2.8/ecs-local_Linux_x86_64.tar.gz"
+      sha256 "ff2cae4c88fea329c5e295fccc15c098280316324fbc183cdca841d763260e00"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Fullscreen/ecs-local/releases/download/v0.2.6/ecs-local_Linux_arm64.tar.gz"
-        sha256 "a1b258486920de9f5f3e38c11c2812bf1c44dec16e2260b24cff76358d9d8afa"
+        url "https://github.com/Fullscreen/ecs-local/releases/download/v0.2.8/ecs-local_Linux_arm64.tar.gz"
+        sha256 "5864d26319b9c5922de3bd963a7391200945a8e1ce6d231d150faa08755b8e40"
       else
-        url "https://github.com/Fullscreen/ecs-local/releases/download/v0.2.6/ecs-local_Linux_armv6.tar.gz"
-        sha256 "320e66a3e9545254d106825bb32d87e4209a8ec7a2e6c6dc9f4d31e53bfbc308"
+        url "https://github.com/Fullscreen/ecs-local/releases/download/v0.2.8/ecs-local_Linux_armv6.tar.gz"
+        sha256 "964e8a4a23c5b2e8fa299d49a74b05b99ed1dd09e61a7ccfceb92bce516ad1de"
       end
     end
   end
