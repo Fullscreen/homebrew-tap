@@ -17,7 +17,6 @@ brew search fullscreen/tap
 
 Name | Description
 -----|------------
-[aws-rotate-key](https://github.com/Fullscreen/aws-rotate-key) | Easily rotate your AWS key.
 [aws-scale](https://github.com/juziel/aws-scale) | Convenience bash function for AWS autoscaling on EC2
 [aws-ssh](https://github.com/dstokes/aws-ssh) | Convenience bash function for SSH on EC2
 [dkv](https://github.com/Fullscreen/dkv) | A command-line interface to a DynamoDB backed key-value store
@@ -26,3 +25,5 @@ Name | Description
 [ecs-local](https://github.com/Fullscreen/ecs-local) | Run ECS task definitions locally
 [fs-env](https://github.com/Fullscreen/fs-env) | A command-line interface to a set/get/delete environment variables for Fullscreen applications
 [garchiver](https://github.com/skout23/garchiver) | bash wrapper for GAM and GMVault
+
+**Note:** [aws-rotate-key](https://github.com/stefansundin/aws-rotate-key) is now available in the official Homebrew repository.
